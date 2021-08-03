@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maze Solver</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Maze Solver</h1>
+    <div id="main">
+        <div id="left">
+            <canvas id='myCanvas' width='580' height='580'></canvas><br>
+        </div>
+        <div id="right">
+            <div id="buttondiv">
+                <button onclick="solveMaze()">Solve!</button>
+                <button onclick="reset()">Reset</button>
+            </div>
+            <p id="outcome"></p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
